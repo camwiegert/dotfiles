@@ -3,3 +3,4 @@
 	email = cam@camwiegert.com
 [core]
 	excludesfile = /Users/Cam/.gitignore
+	editor = nano

@@ -12,7 +12,7 @@ alias notes="cd ~/Dropbox/Notes && subl ."
 alias dots="cd ~/.dotfiles && subl ."
 
 # Dev Stuff
-alias bp="git clone git@github.com:camwiegert/boilerplate.git"
+alias bp="git clone https://github.com/camwiegert/boilerplate.git"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias cdev="cd ~/Dropbox/Dev"
 
