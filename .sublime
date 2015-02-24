@@ -1,8 +1,5 @@
 {
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"ignored_packages": ["Vintage"],
 	"highlight_line": true,
 	"word_wrap": false,
 	"theme": "Spacegray.sublime-theme",

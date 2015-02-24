@@ -3,12 +3,19 @@ export PS1="\u$ "
 export PATH="$HOME/.bin:$PATH"
 export EDITOR=nano
 
-# Shortcuts
+# Remote Boxes
 alias cambox="ssh root@camwiegert.com"
 alias humperdink="ssh humperdink@humperdinks-imac.local"
-alias boilerplate="git clone https://github.com/camwiegert/cam-boilerplate.git"
-alias notes="cd ~/Dropbox/Notes && open ."
+
+# Notes & Configs
+alias notes="cd ~/Dropbox/Notes && subl ."
+alias dots="cd ~/.dotfiles && subl ."
+
+# Dev Stuff
+alias bp="git clone git@github.com:camwiegert/boilerplate.git"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias prof="nano ~/.bash_profile"
 alias cdev="cd ~/Dropbox/Dev"
-alias myip="curl http://icanhazip.com"
+
+# IPs
+alias ip="curl http://icanhazip.com"
+alias lip="ipconfig getifaddr en0"
