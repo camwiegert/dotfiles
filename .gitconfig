@@ -1,0 +1,5 @@
+[user]
+	name = Cam Wiegert
+	email = cam@camwiegert.com
+[core]
+	excludesfile = /Users/Cam/.gitignore
