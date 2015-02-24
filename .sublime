@@ -2,8 +2,6 @@
 	"ignored_packages": ["Vintage"],
 	"highlight_line": true,
 	"word_wrap": false,
-	"theme": "Spacegray.sublime-theme",
-	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/tron.tmTheme",
 	"font_size": 13,
 	"font_family": "menlo",
 	"indent_guide_options": ["draw_normal", "draw_active"],
