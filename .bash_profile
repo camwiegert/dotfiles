@@ -3,9 +3,6 @@ export PS1="\u$ "
 export PATH="$HOME/.bin:$PATH"
 export EDITOR=nano
 
-# Preferred Flags
-alias ls="ls -aF"
-
 # Remote Boxes
 alias cambox="ssh root@camwiegert.com"
 alias humperdink="ssh humperdink@humperdinks-imac.local"
