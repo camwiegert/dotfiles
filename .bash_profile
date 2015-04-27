@@ -1,11 +1,10 @@
 # Defaults
-export PS1="\u$ "
+export PS1="cam$ "
 export PATH="$HOME/.bin:$PATH"
 export EDITOR=nano
 
 # Remote Boxes
 alias cambox="ssh root@camwiegert.com"
-alias humperdink="ssh humperdink@humperdinks-imac.local"
 
 # Notes & Configs
 alias notes="cd ~/Dropbox/Notes && subl ."
