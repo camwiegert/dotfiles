@@ -14,6 +14,7 @@ alias dots="cd ~/.dotfiles && subl ."
 alias bp="git clone git@github.com:camwiegert/boilerplate.git"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias cdev="cd ~/Dropbox/Dev"
+alias bin="cd $HOME/.bin"
 
 # IPs
 alias ip="curl http://icanhazip.com"
