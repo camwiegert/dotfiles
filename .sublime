@@ -8,11 +8,14 @@
 	"file_exclude_patterns": [
 		"Gruntfile.js",
 		"gulpfile.js",
-		"package.json",
 		".DS_Store"
 	],
 	"folder_exclude_patterns": [
 		"node_modules",
 		".git"
-	]
+	],
+	"trim_trailing_white_space_on_save": false,
+    "ensure_newline_at_eof_on_save": false,
+    "translate_tabs_to_spaces": true,
+    "tab_size": 4
 }
