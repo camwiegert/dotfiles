@@ -13,9 +13,16 @@ alias dots="cd ~/.dotfiles && subl ."
 # Dev Stuff
 alias bp="git clone git@github.com:camwiegert/boilerplate.git"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias cdev="cd ~/Dropbox/Dev"
 alias bin="cd $HOME/.bin"
 
 # IPs
 alias ip="curl http://icanhazip.com"
 alias lip="ipconfig getifaddr en0"
+
+# Functions
+function cdev() {
+    if [ $# -eq 1 ]
+        then cd ~/Dropbox/Dev/Planet/$1
+        else cd ~/Dropbox/Dev/Planet
+    fi;
+}
