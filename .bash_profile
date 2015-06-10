@@ -22,7 +22,7 @@ alias lip="ipconfig getifaddr en0"
 # Functions
 function cdev() {
     if [ $# -eq 1 ]
-        then cd ~/Dropbox/Dev/Planet/$1
-        else cd ~/Dropbox/Dev/Planet
+        then cd ~/Dropbox/Dev/$1
+        else cd ~/Dropbox/Dev
     fi;
 }
