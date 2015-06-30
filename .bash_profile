@@ -4,7 +4,7 @@ export PATH="$HOME/.bin:$PATH"
 export EDITOR=nano
 
 # Remote Boxes
-alias cambox="ssh root@camwiegert.com"
+alias cambox="ssh cam@camwiegert.com"
 
 # Notes & Configs
 alias notes="cd ~/Dropbox/Notes && subl ."
@@ -14,6 +14,7 @@ alias dots="cd ~/.dotfiles && subl ."
 alias bp="git clone git@github.com:camwiegert/boilerplate.git"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias bin="cd $HOME/.bin"
+alias server="http-server -p 8888 -o"
 
 # IPs
 alias ip="curl http://icanhazip.com"
