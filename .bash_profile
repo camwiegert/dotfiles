@@ -3,6 +3,10 @@ export PS1="cam$ "
 export PATH="$HOME/.bin:$PATH"
 export EDITOR=nano
 
+# Preferred
+alias cp="cp -i"
+alias mv="mv -i"
+
 # Remote Boxes
 alias cambox="ssh cam@camwiegert.com"
 
