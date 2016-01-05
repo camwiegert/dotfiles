@@ -4,3 +4,5 @@
 [core]
 	excludesfile = /Users/Cam/.gitignore
 	editor = nano
+[alias]
+    lo = log --oneline
