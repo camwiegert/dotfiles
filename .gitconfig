@@ -6,3 +6,4 @@
 	editor = nano
 [alias]
     lo = log --oneline
+    st = status
