@@ -8,10 +8,6 @@ alias cp="cp -i"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
 
-# Remote Boxes
-alias cambox="ssh cam@camwiegert.com"
-alias knockbox="ssh cwiegert@knockbox.planetpropaganda.com"
-
 # Notes & Configs
 alias notes="cd ~/Dropbox/Notes && subl ."
 alias dots="cd ~/.dotfiles && subl ."
