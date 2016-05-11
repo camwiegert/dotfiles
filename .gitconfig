@@ -1,9 +1,9 @@
 [user]
 	name = Cam Wiegert
 	email = cam@camwiegert.com
-	username = camwiegerti
+	username = camwiegert
 [core]
-	excludesfile = /Users/Cam/.gitignore
+	excludesfile = $HOME/.gitignore
 	editor = vim
 [alias]
     lo = log --oneline
