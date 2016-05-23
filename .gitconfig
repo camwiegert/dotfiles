@@ -6,5 +6,6 @@
 	excludesfile = $HOME/.gitignore
 	editor = vim
 [alias]
-    lo = log --oneline
+    lo = log --oneline --graph
     st = status
+    co = checkout
