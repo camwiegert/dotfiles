@@ -9,3 +9,5 @@
     lo = log --oneline --graph
     st = status
     co = checkout
+[push]
+	default = simple
