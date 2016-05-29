@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Preferred
-alias ls="ls -aGF"
+alias ls="ls -AGF"
 alias cp="cp -i"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
