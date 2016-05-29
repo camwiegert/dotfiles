@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# Preferred
+alias ls="ls -aGF"
+alias cp="cp -i"
+alias mv="mv -i"
+alias mkdir="mkdir -p"
+
+# Shortcuts
+alias ..="cd .."
+alias ...="cd ../.."
+alias dots="cd ~/.dotfiles"
+alias dbx="cd ~/Dropbox"
+alias bin="cd ~/.bin"
+alias dt="cd ~/Desktop"
+
+# Misc
+alias ip="curl http://icanhazip.com"
+alias lip="ipconfig getifaddr en0"
+alias server="python -m SimpleHTTPServer 9000 && echo 'Serving on localhost:9000'"
