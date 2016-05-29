@@ -7,7 +7,7 @@
 	editor = vim
 [alias]
     lo = log --oneline --graph
-		br = branch
+    br = branch
     st = status
     co = checkout
 [push]
