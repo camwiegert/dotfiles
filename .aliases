@@ -17,4 +17,4 @@ alias dt="cd ~/Desktop"
 # Misc
 alias ip="curl http://icanhazip.com"
 alias lip="ipconfig getifaddr en0"
-alias server="http-server . -o -p 9000"
+alias server="http-server . -o -p 9000 -c-1"
