@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Make a directory and cd into it.
+dir() {
+  mkdir $1 && cd $1
+}
+
+# Open the GitHub URL for the project.
+gh() {
+  local path="$(git config --get remote.origin.url | sed -E 's/git@|.git//g' | sed 's/:/\//')"
+  open "https://$path"
+}
