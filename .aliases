@@ -17,6 +17,7 @@ alias dt="cd ~/Desktop"
 
 # Node
 alias nn="npm init -f"
+alias ni="npm install"
 alias ns="npm install --save"
 alias nd="npm install --save-dev"
 alias ng="npm install --global"
