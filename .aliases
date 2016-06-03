@@ -15,6 +15,12 @@ alias dbx="cd ~/Dropbox"
 alias bin="cd ~/.bin"
 alias dt="cd ~/Desktop"
 
+# Node
+alias nn="npm init -f"
+alias ns="npm install --save"
+alias nd="npm install --save-dev"
+alias ng="npm install --global"
+
 # Misc
 alias ip="curl http://icanhazip.com"
 alias lip="ipconfig getifaddr en0"
