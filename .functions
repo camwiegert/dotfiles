@@ -17,5 +17,6 @@ nope() {
   echo -n "You sure about that? (y/n): " && read answer
   if [ $answer == "y" ]; then
     cd .. && rm -rf "$here"
+    echo "Removed $here"
   fi
 }
