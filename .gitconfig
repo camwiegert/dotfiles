@@ -16,3 +16,5 @@
     df = diff
 [push]
 	default = simple
+[advice]
+    statusHints = false
