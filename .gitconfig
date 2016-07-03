@@ -10,6 +10,6 @@
     br = branch
     st = status
     co = checkout
-    cm = commit -m
+    ci = commit
 [push]
 	default = simple
