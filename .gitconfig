@@ -5,6 +5,8 @@
 [core]
 	excludesfile = $HOME/.gitignore
 	editor = vim
+[color]
+    ui = auto
 [alias]
     lo = log --oneline --graph
     br = branch
