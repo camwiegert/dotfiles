@@ -13,6 +13,3 @@ Thumbs.db
 # File system stuff.
 .Spotlight-V100
 .Trashes
-
-# SSH
-.sshconfig
