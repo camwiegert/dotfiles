@@ -11,5 +11,6 @@
     st = status
     co = checkout
     ci = commit
+    df = diff
 [push]
 	default = simple
