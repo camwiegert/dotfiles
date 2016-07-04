@@ -15,11 +15,9 @@ alias bin="cd ~/.bin"
 alias dt="cd ~/Desktop"
 
 # Node
-alias nn="npm init -f"
 alias ni="npm install"
-alias ns="npm install --save"
-alias nd="npm install --save-dev"
-alias ng="npm install --global"
+alias nis="npm install --save"
+alias nisd="npm install --save-dev"
 
 # Misc
 alias ip="curl http://icanhazip.com"
