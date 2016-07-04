@@ -5,6 +5,7 @@ alias ls="ls -AGF"
 alias cp="cp -i"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
+alias tree="tree -aF -I '.git|node_modules' -L 3"
 
 # Shortcuts
 alias ..="cd .."
