@@ -12,7 +12,7 @@
     br = branch
     st = status
     co = checkout
-    ci = commit
+    ci = commit -v
     df = diff
     ec = config --global -e
 [push]
