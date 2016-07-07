@@ -13,6 +13,7 @@
     st = status
     co = checkout
     ci = commit -v
+    cm = commit -m
     df = diff
     ec = config --global -e
 [push]
