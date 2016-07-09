@@ -11,7 +11,7 @@ gh() {
   open "https://$path"
 }
 
-#
+# Back out of and delete current directory.
 nope() {
   local here="$(pwd)"
   echo -n "You sure about that? (y/n): " && read answer
