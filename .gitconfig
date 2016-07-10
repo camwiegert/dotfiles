@@ -14,7 +14,7 @@
     co = checkout
     ci = commit -v
     cm = commit -m
-    df = diff
+    df = diff -p --stat
     ec = config --global -e
 [push]
 	default = simple
