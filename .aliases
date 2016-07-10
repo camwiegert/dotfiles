@@ -10,6 +10,7 @@ alias tree="tree -aF -I '.git|node_modules' -L 3"
 # Shortcuts
 alias ..="cd .."
 alias ...="cd ../.."
+alias -- -="cd -"
 alias dots="cd ~/.dotfiles"
 alias dbx="cd ~/Dropbox"
 alias bin="cd ~/.bin"
