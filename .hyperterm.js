@@ -48,6 +48,6 @@ module.exports = {
 
   },
 
-  plugins: [],
+  plugins: ['hypercwd'],
   localPlugins: []
 };
