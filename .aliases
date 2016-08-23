@@ -2,6 +2,7 @@
 
 # Preferred
 alias ls="ls -AGF"
+alias ll="ls -lh"
 alias cp="cp -i"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
