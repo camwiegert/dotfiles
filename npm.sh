@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+npm install -g npm
+
+npm install -g babel-cli
 npm install -g clif
 npm install -g fast-cli
 npm install -g gulp
