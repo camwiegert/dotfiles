@@ -5,13 +5,14 @@ brew update
 brew upgrade --all
 
 # Install some useful packages.
+brew install ansible
 brew install curl
-brew install wget
 brew install httpie
-brew install openssl
 brew install imagemagick
-brew install tree
 brew install nmap
+brew install openssl
+brew install tree
+brew install wget
 
 # Remove outdated packages from the cellar.
 brew cleanup
