@@ -2,7 +2,6 @@
 
 npm install -g npm
 
-npm install -g clif
 npm install -g fast-cli
 npm install -g gulp
 npm install -g http-server
