@@ -10,4 +10,5 @@ npm install -g json-server
 npm install -g node-sass
 npm install -g nodemon
 npm install -g parker
+npm install -g svgo
 npm install -g webpack
