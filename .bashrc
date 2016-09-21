@@ -4,7 +4,7 @@ export EDITOR=vim
 
 # Path
 export PATH="$HOME/.bin:$PATH"
-export PATH="$HOME/.bin/lib/node/bin:$PATH"
+export PATH="$HOME/.node/bin:$PATH"
 
 # Load some other files, if they exist.
 for file in ~/.{aliases,functions,git-completion.bash}; do
