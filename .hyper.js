@@ -8,7 +8,7 @@ module.exports = {
     borderColor: '#333',
     cursorColor: foregroundColor,
     cursorShape: 'BLOCK',
-    fontFamily: '"SFMono-Light", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily: '"SF Mono", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace',
     fontSize: 13,
     foregroundColor: foregroundColor,
     padding: '6px 8px',
