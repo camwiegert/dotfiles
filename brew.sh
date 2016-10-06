@@ -7,6 +7,7 @@ brew upgrade --all
 # Install some useful packages.
 brew install ansible
 brew install curl
+brew install figlet
 brew install httpie
 brew install imagemagick
 brew install nmap
