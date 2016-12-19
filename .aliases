@@ -8,6 +8,7 @@ alias mv="mv -i"
 alias mkdir="mkdir -p"
 alias tree="tree -aF -I '.git|node_modules'"
 alias grep="grep -i --color=auto"
+alias top="htop"
 
 # Shortcuts
 alias ..="cd .."

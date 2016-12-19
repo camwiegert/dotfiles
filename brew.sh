@@ -8,6 +8,7 @@ brew upgrade
 brew install ansible
 brew install curl
 brew install figlet
+brew install htop
 brew install httpie
 brew install imagemagick
 brew install neofetch
