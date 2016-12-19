@@ -1,5 +1,5 @@
 const foregroundColor = '#f8f8f0';
-const backgroundColor = '#111111';
+const backgroundColor = '#171717';
 
 module.exports = {
   config: {
