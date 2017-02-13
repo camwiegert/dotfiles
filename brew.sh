@@ -5,6 +5,7 @@ brew update
 brew upgrade
 
 # Install some useful packages.
+brew install ack
 brew install ansible
 brew install curl
 brew install figlet
