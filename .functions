@@ -11,16 +11,6 @@ gh() {
   open "https://$path"
 }
 
-# Back out of and delete current directory.
-nope() {
-  local here="$(pwd)"
-  echo -n "You sure about that? (y/n): " && read answer
-  if [ $answer == "y" ]; then
-    cd .. && rm -rf "$here"
-    echo "Removed $here"
-  fi
-}
-
 # Print a table of available prompt colors.
 ansi() {
   T='gYw' # The test text
