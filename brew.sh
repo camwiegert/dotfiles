@@ -23,6 +23,7 @@ brew install yarn
 # Install some apps.
 brew cask install 1password
 brew cask install atom
+brew cask install docker
 brew cask install dropbox
 brew cask install flux
 brew cask install google-chrome
