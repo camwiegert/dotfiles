@@ -18,6 +18,7 @@ brew install openssl
 brew install tree
 brew install vim
 brew install wget
+brew install yarn
 
 # Install some apps.
 brew cask install 1password
