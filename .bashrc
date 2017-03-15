@@ -11,5 +11,3 @@ for file in ~/.{aliases,functions,git-completion.bash}; do
     [ -f "$file" ] && source "$file"
 done
 unset file
-
-export LSCOLORS="hxfxcxdxbxegedabagacad"
