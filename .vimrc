@@ -1,3 +1,9 @@
+syntax enable
+colorscheme monokai
+
+" Highlight the current line
+set cursorline
+
 " Show line numbers
 set number
 
