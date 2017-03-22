@@ -7,3 +7,6 @@ for file in .{aliases,functions,bash_profile,bashrc,gitconfig,gitignore,hushlogi
   ln -i -s "$(pwd)/$file" ~/"$file"
 done
 unset file
+
+source ./brew.sh
+source ./yarn.sh
