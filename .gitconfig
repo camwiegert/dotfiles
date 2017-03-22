@@ -8,7 +8,7 @@
 [color]
     ui = auto
 [alias]
-    lo = log --oneline --graph
+    lo = log --oneline --graph -n 20
     br = branch
     st = status
     co = checkout
