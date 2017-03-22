@@ -1,22 +1,27 @@
 [user]
-	name = Cam Wiegert
-	email = cam@camwiegert.com
-	username = camwiegert
+    email = cam@camwiegert.com
+    name = Cam Wiegert
+    username = camwiegert
+
 [core]
-	excludesfile = $HOME/.gitignore
-	editor = vim
+    editor = vim
+    excludesfile = $HOME/.gitignore
+
 [color]
     ui = auto
+
 [alias]
-    lo = log --oneline --graph -n 20
     br = branch
-    st = status
-    co = checkout
     ci = commit -v
     cm = commit -m
+    co = checkout
     df = diff -p --stat
     ec = config --global -e
+    lo = log --oneline --graph -n 20
+    st = status
+
 [push]
-	default = simple
+    default = simple
+
 [advice]
     statusHints = false
