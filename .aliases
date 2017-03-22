@@ -31,3 +31,4 @@ alias ip="curl http://icanhazip.com"
 alias lip="ipconfig getifaddr en0"
 alias serve="serve -p 7000"
 alias mirror="wget --mirror --html-extension"
+alias path='echo -e ${PATH//:/\\n}'
