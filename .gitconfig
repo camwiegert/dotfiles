@@ -1,7 +1,6 @@
 [user]
     email = cam@camwiegert.com
     name = Cam Wiegert
-    username = camwiegert
 
 [core]
     editor = vim
