@@ -9,6 +9,7 @@ brew install ack
 brew install ansible
 brew install curl
 brew install figlet
+brew install git
 brew install htop
 brew install httpie
 brew install imagemagick
