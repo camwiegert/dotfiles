@@ -24,7 +24,6 @@ brew install yarn
 brew cask install 1password
 brew cask install atom
 brew cask install docker
-brew cask install dropbox
 brew cask install google-chrome
 brew cask install hyper
 brew cask install imagealpha
