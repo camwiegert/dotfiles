@@ -1,1 +1,1 @@
-# Just keeps the terminal quiet.
+# Disables the welcome message. See `man login`.
