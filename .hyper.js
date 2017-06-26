@@ -1,8 +1,8 @@
 module.exports = {
 
   config: {
-    fontFamily: '"SF Mono", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace',
-    fontSize: 13,
+    fontFamily: '"Operator Mono", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontSize: 14,
     windowSize: [1080, 640],
     bell: false
   },
