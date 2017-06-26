@@ -1,8 +1,5 @@
-# Defaults
 export PS1="\u:\w $ "
 export EDITOR=vim
-
-# Path
 export PATH="$HOME/.bin:$PATH"
 
 # Load some other files, if they exist.
