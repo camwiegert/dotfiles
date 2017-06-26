@@ -34,8 +34,6 @@ brew cask install slack
 brew cask install spectacle
 brew cask install spotify
 brew cask install transmission
-brew cask install vagrant
-brew cask install virtualbox
 brew cask install vlc
 
 # Remove outdated packages from the cellar.
