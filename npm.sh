@@ -6,6 +6,7 @@ gulp \
 json-server \
 node-sass \
 nodemon \
+npm \
 parker \
 prettier \
 serve \
