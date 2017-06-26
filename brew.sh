@@ -15,6 +15,7 @@ brew install httpie
 brew install imagemagick
 brew install neofetch
 brew install nmap
+brew install node
 brew install openssl
 brew install tree
 brew install vim
