@@ -14,17 +14,8 @@ alias top="htop"
 alias ..="cd .."
 alias ...="cd ../.."
 alias dots="cd ~/.dotfiles"
-alias dbx="cd ~/Dropbox"
 alias bin="cd ~/.bin"
 alias dt="cd ~/Desktop"
-
-# Node
-alias ni="npm install"
-alias nu="npm uninstall"
-alias nis="npm install --save"
-alias nus="npm uninstall --save"
-alias nisd="npm install --save-dev"
-alias nusd="npm uninstall --save-dev"
 
 # Misc
 alias ip="curl http://icanhazip.com"
