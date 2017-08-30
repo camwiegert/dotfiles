@@ -5,6 +5,11 @@ dir() {
   mkdir $1 && cd $1
 }
 
+# Create directory path for file
+touchp() {
+  mkdir -p "$(dirname "$1")/" && touch $1
+}
+
 # Open GitHub URL
 gh() {
   local path="$(git config --get remote.origin.url | sed -E 's/git@|.git//g' | sed 's/:/\//')"
