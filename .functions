@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-# Make a directory and cd into it
-dir() {
-  mkdir $1 && cd $1
-}
-
 # Create directory path for file
 touchp() {
   mkdir -p "$(dirname "$1")/" && touch $1
