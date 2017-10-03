@@ -1,4 +1,4 @@
-export PS1="$(tput bold)\u:\w # $(tput sgr0)"
+export PS1="$(tput bold)\w # $(tput sgr0)"
 export EDITOR=vim
 export PATH="$HOME/.bin:$PATH"
 
