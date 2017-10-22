@@ -30,6 +30,7 @@ brew cask install google-chrome
 brew cask install hyper
 brew cask install imagealpha
 brew cask install imageoptim
+brew cask install ngrok
 brew cask install sketch
 brew cask install slack
 brew cask install spectacle
