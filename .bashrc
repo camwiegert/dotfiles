@@ -3,7 +3,7 @@ export EDITOR=vim
 export PATH="$HOME/.bin:$PATH"
 
 # Load some other files, if they exist.
-for file in ~/.{aliases,functions,git-completion.bash}; do
+for file in ~/.{aliases,functions,git-completion.bash,localrc}; do
     [ -f "$file" ] && source "$file"
 done
 unset file
