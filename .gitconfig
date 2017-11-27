@@ -16,7 +16,7 @@
     co = checkout
     df = diff -p --stat
     ec = config --global -e
-    lo = log --oneline --graph -n 20
+    lo = log --oneline --graph
     st = status
 
 [push]
