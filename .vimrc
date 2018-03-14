@@ -28,6 +28,7 @@ set scrolloff=3
 
 " Enhance tab completion
 set wildmenu
+set wildignore+=node_modules/,.git/
 
 " Ignore case in pattern matching
 set ignorecase
