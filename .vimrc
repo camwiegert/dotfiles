@@ -49,4 +49,4 @@ set backspace=indent,eol,start
 
 " Always show status line
 set laststatus=2
-set statusline=%f\ %m%=L%l:%c
+set statusline=%F\ %m%=L%l:%c
