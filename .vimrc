@@ -1,3 +1,8 @@
+syntax enable
+
+" Don't wrap lines
+set nowrap
+
 " Show line numbers
 set number
 
