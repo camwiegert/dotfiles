@@ -1,4 +1,15 @@
 syntax enable
+set background=dark
+colorscheme solarized
+
+" Better netrw defaults
+let g:netrw_banner=0
+
+" Remap for split nav
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " Don't wrap lines
 set nowrap
@@ -8,6 +19,12 @@ set number
 
 " Highlight matching delimiters
 set showmatch
+
+" Highlight current line
+set cursorline
+
+" Scroll before getting to an edge
+set scrolloff=3
 
 " Enhance tab completion
 set wildmenu
@@ -19,6 +36,12 @@ set ignorecase
 set expandtab
 set softtabstop=2
 set tabstop=2
+set shiftwidth=2
+set shiftround
+
+" Set matching indenation on newlines
+set autoindent
+set smartindent
 
 " Allow backspace in insert mode
 set backspace=indent,eol,start
