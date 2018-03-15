@@ -57,3 +57,9 @@ set statusline=%F\ %m%=L%l:%c
 " Open splits to right and bottom
 set splitbelow
 set splitright
+
+" Let me leave unwritten buffers
+set hidden
+
+" Show commands as they're typed
+set showcmd
