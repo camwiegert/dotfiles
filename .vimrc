@@ -2,6 +2,11 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" gitgutter
+set rtp+=~/.vim/bundle/vim-gitgutter
+set signcolumn=yes
+set updatetime=500
+
 " Better netrw defaults
 let g:netrw_banner=0
 
@@ -10,9 +15,6 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-" Speed up updates for gitgutter
-set updatetime=500
 
 " Don't wrap lines
 set nowrap
