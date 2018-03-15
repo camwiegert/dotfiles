@@ -11,6 +11,9 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Speed up updates for gitgutter
+set updatetime=500
+
 " Don't wrap lines
 set nowrap
 
