@@ -50,3 +50,7 @@ set backspace=indent,eol,start
 " Always show status line
 set laststatus=2
 set statusline=%F\ %m%=L%l:%c
+
+" Open splits to right and bottom
+set splitbelow
+set splitright
