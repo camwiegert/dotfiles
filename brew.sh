@@ -8,6 +8,8 @@ brew upgrade
 brew install ack
 brew install ansible
 brew install curl
+brew install fd
+brew install fzf
 brew install figlet
 brew install git
 brew install htop
@@ -27,7 +29,6 @@ brew cask install 1password
 brew cask install atom
 brew cask install docker
 brew cask install google-chrome
-brew cask install hyper
 brew cask install imagealpha
 brew cask install imageoptim
 brew cask install ngrok
