@@ -7,3 +7,9 @@ for file in ~/.{aliases,functions,git-completion.bash,localrc}; do
     [ -f "$file" ] && source "$file"
 done
 unset file
+
+# Set up fzf
+export FZF_DEFAULT_COMMAND="fd --hidden --exclude .git"
+
+# Bind Ctrl-p to open vim from fzf
+bind -x '"\C-p": vim $(fzf);'

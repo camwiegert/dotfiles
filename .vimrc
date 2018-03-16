@@ -7,6 +7,10 @@ set rtp+=~/.vim/bundle/vim-gitgutter
 set signcolumn=yes
 set updatetime=500
 
+" fzf
+set rtp+=/usr/local/opt/fzf
+nnoremap <C-P> :FZF<ENTER>
+
 " Better netrw defaults
 let g:netrw_banner=0
 
