@@ -6,6 +6,6 @@ alias lip="ipconfig getifaddr en0"
 alias ls="ls -AGF1"
 alias mkdir="mkdir -p"
 alias mv="mv -i"
-alias path='echo -e ${PATH//:/\\n}'
+alias path="echo -e '${PATH//:/\\n}'"
 alias top="htop"
 alias tree="tree -aF -I '.git|node_modules'"
