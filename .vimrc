@@ -96,5 +96,5 @@ set showcmd
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
 Plug 'itchyny/lightline.vim'
-Plug 'leafgarland/typescript-vim'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
