@@ -13,7 +13,7 @@ files=(
   .vimrc
 )
 
-# Symlink our dotfiles into ~ interactively
+# Symlink into ~ interactively
 for file in "${files[@]}"; do
   ln -i -s "$(pwd)/$file" ~/"$file"
 done
