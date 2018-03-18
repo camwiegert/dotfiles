@@ -29,6 +29,9 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Enough with the macros
+nnoremap qq <nop>
+
 " Don't wrap lines
 set nowrap
 
