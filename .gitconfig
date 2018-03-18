@@ -15,7 +15,6 @@
     cm = commit -m
     co = checkout
     df = diff -p --stat
-    ec = config --global -e
     lo = log --oneline --graph
     st = status
 

@@ -1,32 +1,26 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Get the latest Homebrew and upgrade existing packages.
 brew update
 brew upgrade
 
 # Install some useful packages.
 brew install ack
-brew install ansible
 brew install curl
 brew install fd
-brew install fzf
 brew install figlet
+brew install fzf
 brew install git
 brew install htop
 brew install httpie
-brew install imagemagick
 brew install neofetch
 brew install nmap
 brew install node
-brew install openssl
 brew install tree
 brew install vim
 brew install wget
-brew install yarn
 
 # Install some apps.
 brew cask install 1password
-brew cask install atom
 brew cask install docker
 brew cask install google-chrome
 brew cask install imagealpha
@@ -40,5 +34,5 @@ brew cask install transmission
 brew cask install transmit
 brew cask install vlc
 
-# Remove outdated packages from the cellar.
+# Remove outdated packages.
 brew cleanup

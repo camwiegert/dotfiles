@@ -1,22 +1,11 @@
-#!/usr/bin/env bash
-
-alias ls="ls -AGF"
-alias ll="ls -lh"
-alias cp="cp -i"
-alias mv="mv -i"
-alias mkdir="mkdir -p"
-alias tree="tree -aF -I '.git|node_modules'"
-alias grep="grep -i --color=auto"
-alias top="htop"
-
-alias ..="cd .."
 alias ...="cd ../.."
-alias dots="cd ~/.dotfiles"
-alias bin="cd ~/.bin"
-alias dt="cd ~/Desktop"
-
-alias ip="curl http://icanhazip.com"
+alias ..="cd .."
+alias cp="cp -i"
+alias grep="grep -i --color=auto"
 alias lip="ipconfig getifaddr en0"
-alias serve="serve -p 7000"
-alias mirror="wget --mirror --html-extension"
+alias ls="ls -AGF1"
+alias mkdir="mkdir -p"
+alias mv="mv -i"
 alias path='echo -e ${PATH//:/\\n}'
+alias top="htop"
+alias tree="tree -aF -I '.git|node_modules'"

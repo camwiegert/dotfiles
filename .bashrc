@@ -1,15 +1,9 @@
-export PS1="$(tput bold)\w # $(tput sgr0)"
 export EDITOR=vim
+export FZF_DEFAULT_COMMAND="fd --hidden --exclude .git"
 export PATH="$HOME/.bin:$PATH"
+export PS1="$(tput bold)\w # $(tput sgr0)"
 
-# Load some other files, if they exist.
-for file in ~/.{aliases,functions,git-completion.bash,localrc}; do
-    [ -f "$file" ] && source "$file"
+for file in ~/.{aliases,functions,localrc,git-completion.bash}; do
+  [ -f "$file" ] && source "$file"
 done
 unset file
-
-# Set up fzf
-export FZF_DEFAULT_COMMAND="fd --hidden --exclude .git"
-
-# Bind Ctrl-p to open vim from fzf
-bind -x '"\C-p": vim $(fzf);'

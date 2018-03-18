@@ -1,12 +1,5 @@
-#!/usr/bin/env bash
-
-# Create directory path for file
-touchp() {
-  mkdir -p "$(dirname "$1")/" && touch $1
-}
-
 # Open GitHub URL
-gh() {
+github() {
   local path="$(git config --get remote.origin.url | sed -E 's/git@|.git//g' | sed 's/:/\//')"
   open "https://$path"
 }
