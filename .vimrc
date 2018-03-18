@@ -90,5 +90,6 @@ set showcmd
 " Install vim-plug packages
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
+Plug 'itchyny/lightline.vim'
 Plug 'leafgarland/typescript-vim'
 call plug#end()
