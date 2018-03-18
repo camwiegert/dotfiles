@@ -8,6 +8,11 @@ set directory=/var/tmp//
 " Use space as leader
 let mapleader="\<space>"
 
+" Easy buffer navigation
+nnoremap <leader>[ :bprevious<ENTER>
+nnoremap <leader>] :bnext<ENTER>
+nnoremap <leader>\ :b#<ENTER>
+
 " Disable the f*cking bell
 set belloff=all
 
