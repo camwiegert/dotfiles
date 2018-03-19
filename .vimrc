@@ -2,6 +2,10 @@ syntax on
 set background=dark
 colorscheme nord
 
+filetype on
+filetype plugin on
+filetype indent on
+
 " Put swapfiles in /var/tmp
 set directory=/var/tmp//
 
