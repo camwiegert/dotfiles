@@ -12,7 +12,6 @@
 [alias]
     br = branch
     ci = commit -v
-    cm = commit -m
     co = checkout
     df = diff -p --stat
     lo = log --oneline --graph
