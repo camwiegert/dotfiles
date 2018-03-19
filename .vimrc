@@ -95,6 +95,7 @@ set showcmd
 " Install vim-plug packages
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'sheerun/vim-polyglot'
 call plug#end()
