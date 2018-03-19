@@ -15,6 +15,7 @@ brew install httpie
 brew install neofetch
 brew install nmap
 brew install node
+brew install pandoc
 brew install tree
 brew install vim
 brew install wget
