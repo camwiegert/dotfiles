@@ -93,6 +93,9 @@ set splitright
 " Let me leave unwritten buffers
 set hidden
 
+" Read in external changes automatically
+set autoread
+
 " Show commands as they're typed
 set showcmd
 
