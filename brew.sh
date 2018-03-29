@@ -4,7 +4,6 @@ brew update
 brew upgrade
 
 # Install some useful packages.
-brew install ack
 brew install curl
 brew install fd
 brew install figlet
@@ -16,6 +15,7 @@ brew install neofetch
 brew install nmap
 brew install node
 brew install pandoc
+brew install ripgrep
 brew install tree
 brew install vim
 brew install wget

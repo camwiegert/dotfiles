@@ -1,7 +1,6 @@
 #!/bin/bash
 
 files=(
-  .ackrc
   .aliases
   .bash_profile
   .bashrc
@@ -10,6 +9,7 @@ files=(
   .gitignore
   .hushlogin
   .inputrc
+  .rgrc
   .vimrc
 )
 

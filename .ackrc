@@ -1,5 +1,0 @@
---ignore-dir=.git
---ignore-dir=node_modules
---smart-case
---type-add=css=.scss,.sass
---type-add=js=.ts,.tsx,.jsx
