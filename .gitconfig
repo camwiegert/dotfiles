@@ -13,7 +13,7 @@
     br = branch
     ci = commit -v
     co = checkout
-    df = diff -p --stat
+    df = diff
     lo = log --oneline --graph
     st = status
 
