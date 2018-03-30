@@ -39,7 +39,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Enough with the macros
-nnoremap qq <nop>
+nnoremap q <nop>
 
 " Don't wrap lines
 set nowrap
