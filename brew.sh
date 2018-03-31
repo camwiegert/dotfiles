@@ -1,8 +1,5 @@
 #!/bin/bash
 
-brew update
-brew upgrade
-
 # Install some useful packages.
 brew install curl
 brew install fd
@@ -34,6 +31,3 @@ brew cask install spotify
 brew cask install transmission
 brew cask install transmit
 brew cask install vlc
-
-# Remove outdated packages.
-brew cleanup
