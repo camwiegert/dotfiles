@@ -8,6 +8,7 @@ brew install fzf
 brew install git
 brew install htop
 brew install httpie
+brew install jq
 brew install neofetch
 brew install nmap
 brew install node
