@@ -56,6 +56,9 @@ set cursorline
 " Scroll before getting to an edge
 set scrolloff=3
 
+" Remove banner from netrw
+let g:netrw_banner=0
+
 " Enhance tab completion
 set wildmenu
 set wildignore+=node_modules/*
