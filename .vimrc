@@ -58,8 +58,10 @@ set scrolloff=3
 set sidescrolloff=3
 set sidescroll=1
 
-" Remove banner from netrw
+" Better netrw defaults
 let g:netrw_banner=0
+let g:netrw_winsize=25
+nnoremap <leader>- :Lexplore<ENTER>
 
 " Enhance tab completion
 set wildmenu
