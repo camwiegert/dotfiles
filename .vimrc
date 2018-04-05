@@ -55,6 +55,8 @@ set cursorline
 
 " Scroll before getting to an edge
 set scrolloff=3
+set sidescrolloff=3
+set sidescroll=1
 
 " Remove banner from netrw
 let g:netrw_banner=0
