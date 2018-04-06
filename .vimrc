@@ -15,7 +15,7 @@ let mapleader="\<space>"
 " Easy buffer navigation
 nnoremap <leader>[ :bprevious<ENTER>
 nnoremap <leader>] :bnext<ENTER>
-nnoremap <leader>\ :b#<ENTER>
+nnoremap <leader>- :b#<ENTER>
 
 " Disable the f*cking bell
 set belloff=all
@@ -61,7 +61,7 @@ set sidescroll=1
 " Better netrw defaults
 let g:netrw_banner=0
 let g:netrw_winsize=25
-nnoremap <leader>- :Lexplore<ENTER>
+nnoremap <leader>\ :Lexplore<ENTER>
 
 " Enhance tab completion
 set wildmenu
