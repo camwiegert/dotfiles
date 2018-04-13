@@ -61,6 +61,7 @@ set sidescroll=1
 " Better netrw defaults
 let g:netrw_banner=0
 let g:netrw_winsize=25
+let g:netrw_list_hide="node_modules,\.git,\.DS_Store"
 nnoremap <leader>\ :Lexplore<ENTER>
 
 " Enhance tab completion
