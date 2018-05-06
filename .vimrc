@@ -22,7 +22,7 @@ set belloff=all
 
 " Show trailing whitespace
 set list
-set listchars=trail:·,
+set listchars=tab:→\ ,trail:·
 
 " gitgutter
 set signcolumn=yes
