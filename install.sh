@@ -4,6 +4,7 @@ files=(
   .aliases
   .bash_profile
   .bashrc
+  .editorconfig
   .functions
   .gitconfig
   .gitignore
