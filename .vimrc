@@ -44,9 +44,6 @@ nnoremap q <nop>
 " Don't wrap lines
 set nowrap
 
-" Show line numbers
-set number
-
 " Highlight matching delimiters
 set showmatch
 
