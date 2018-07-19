@@ -32,12 +32,6 @@ set updatetime=500
 set rtp+=/usr/local/opt/fzf
 nnoremap <leader><leader> :FZF<ENTER>
 
-" Remap for split nav
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-
 " Enough with the macros
 nnoremap q <nop>
 
