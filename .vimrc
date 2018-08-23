@@ -31,7 +31,7 @@ set updatetime=500
 " fzf
 set rtp+=/usr/local/opt/fzf
 nnoremap <leader><leader> :FZF<ENTER>
-nnoremap <leader>\ :call fzf#run({'options': ['--preview', 'head -$LINES {}']})<ENTER>
+nnoremap <leader>\ :call fzf#run({'sink': 'edit', 'options': ['--preview', 'head -$LINES {}']})<ENTER>
 
 " Enough with the macros
 nnoremap q <nop>
