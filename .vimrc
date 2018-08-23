@@ -30,8 +30,9 @@ set updatetime=500
 
 " fzf
 set rtp+=/usr/local/opt/fzf
+command! -bang FZFP call fzf#run(fzf#wrap({ 'sink': 'edit', 'options': ['--preview', 'head -$LINES {}']}, <bang>0))
 nnoremap <leader><leader> :FZF<ENTER>
-nnoremap <leader>\ :call fzf#run({'sink': 'edit', 'options': ['--preview', 'head -$LINES {}']})<ENTER>
+nnoremap <leader>\ :FZFP!<ENTER>
 
 " Enough with the macros
 nnoremap q <nop>
