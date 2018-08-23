@@ -31,6 +31,7 @@ set updatetime=500
 " fzf
 set rtp+=/usr/local/opt/fzf
 nnoremap <leader><leader> :FZF<ENTER>
+nnoremap <leader>\ :call fzf#run({'options': ['--preview', 'head -$LINES {}']})<ENTER>
 
 " Enough with the macros
 nnoremap q <nop>
@@ -54,7 +55,6 @@ let g:netrw_banner=0
 let g:netrw_winsize=25
 let g:netrw_list_hide="node_modules,\.git,\.DS_Store"
 let g:netrw_liststyle=3
-nnoremap <leader>\ :Lexplore<ENTER>
 
 " Enhance tab completion
 set wildmenu
