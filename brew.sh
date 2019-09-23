@@ -11,7 +11,7 @@ brew install httpie
 brew install jq
 brew install neofetch
 brew install nmap
-brew install node
+brew install n
 brew install pandoc
 brew install ripgrep
 brew install tree
