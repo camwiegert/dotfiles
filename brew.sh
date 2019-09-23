@@ -31,4 +31,5 @@ brew cask install spectacle
 brew cask install spotify
 brew cask install transmission
 brew cask install transmit
+brew cask install visual-studio-code
 brew cask install vlc
