@@ -10,7 +10,6 @@ files=(
   .gitignore
   .hushlogin
   .inputrc
-  .rgrc
   .vimrc
 )
 
