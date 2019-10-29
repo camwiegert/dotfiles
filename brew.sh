@@ -3,6 +3,7 @@
 # Install some useful packages.
 brew install curl
 brew install fd
+brew install ffmpeg
 brew install figlet
 brew install fzf
 brew install git
