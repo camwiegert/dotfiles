@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # Install some useful packages.
 brew install curl

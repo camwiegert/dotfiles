@@ -1,18 +1,7 @@
-# Open GitHub URL
-github() {
-  local path="$(git config --get remote.origin.url | sed -E 's/git@|.git//g' | sed 's/:/\//')"
-  open "https://$path"
+function path() {
+    echo -e ${PATH//:/\\n}
 }
 
-# Colorize man pages
-man() {
-  env \
-    LESS_TERMCAP_mb=$(printf "\e[1;31m") \
-    LESS_TERMCAP_md=$(printf "\e[1;31m") \
-    LESS_TERMCAP_me=$(printf "\e[0m") \
-    LESS_TERMCAP_se=$(printf "\e[0m") \
-    LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
-    LESS_TERMCAP_ue=$(printf "\e[0m") \
-    LESS_TERMCAP_us=$(printf "\e[1;32m") \
-      man "$@"
+function github() {
+    open "https://github.com/$(git remote get-url origin | cut -d ':' -f 2 | cut -d '.' -f 1)"
 }

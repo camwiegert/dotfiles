@@ -1,19 +1,19 @@
-#!/bin/bash
+#!/bin/zsh
 
 files=(
-  .aliases
-  .bash_profile
-  .bashrc
-  .editorconfig
-  .functions
-  .gitconfig
-  .gitignore
-  .hushlogin
-  .inputrc
-  .vimrc
+    .aliases
+    .editorconfig
+    .functions
+    .gitconfig
+    .gitignore
+    .hushlogin
+    .npmrc
+    .vimrc
+    .zshrc
 )
 
-# Symlink into ~ interactively
-for file in "${files[@]}"; do
-  ln -i -s "$(pwd)/$file" ~/"$file"
+for file in $files; do
+  ln -s -i "$(pwd)/$file" ~/"$file"
 done
+
+unset files;
