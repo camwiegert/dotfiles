@@ -20,5 +20,8 @@
 [push]
     default = simple
 
+[pull]
+    ff = only
+
 [advice]
     statusHints = false
