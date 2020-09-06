@@ -26,9 +26,9 @@ brew cask install google-chrome
 brew cask install imagealpha
 brew cask install imageoptim
 brew cask install ngrok
+brew cask install rectangle
 brew cask install sketch
 brew cask install slack
-brew cask install spectacle
 brew cask install spotify
 brew cask install transmission
 brew cask install transmit
