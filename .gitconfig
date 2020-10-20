@@ -27,4 +27,7 @@
     statusHints = false
 
 [init]
-	defaultBranch = main
+    defaultBranch = main
+
+[checkout]
+    defaultRemote = origin
