@@ -18,6 +18,7 @@ brew install ripgrep
 brew install tree
 brew install vim
 brew install wget
+brew install woff2
 
 # Install some apps.
 brew cask install 1password
