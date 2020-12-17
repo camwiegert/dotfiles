@@ -21,17 +21,11 @@ brew install wget
 brew install woff2
 
 # Install some apps.
-brew cask install 1password
-brew cask install docker
-brew cask install google-chrome
-brew cask install imagealpha
-brew cask install imageoptim
-brew cask install ngrok
-brew cask install rectangle
-brew cask install sketch
-brew cask install slack
-brew cask install spotify
-brew cask install transmission
-brew cask install transmit
-brew cask install visual-studio-code
-brew cask install vlc
+brew install --cask 1password
+brew install --cask docker
+brew install --cask google-chrome
+brew install --cask insomnia
+brew install --cask rectangle
+brew install --cask slack
+brew install --cask spotify
+brew install --cask visual-studio-code
