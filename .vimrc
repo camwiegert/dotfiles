@@ -8,5 +8,5 @@ set shiftwidth=4
 set expandtab
 set laststatus=2
 set backspace=indent,eol,start
-set rtp+=/usr/local/opt/fzf
+set rtp+=/opt/homebrew/opt/fzf
 nnoremap <space><space> :FZF<enter>
