@@ -1,3 +1,4 @@
+alias cat="bat"
 alias cp="cp -i"
 alias grep="grep -i --color=auto"
 alias ls="ls -AGF1"

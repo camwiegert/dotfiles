@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 # Install some useful packages.
+brew install bat
 brew install curl
 brew install fd
 brew install ffmpeg
