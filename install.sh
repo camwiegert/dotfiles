@@ -8,6 +8,7 @@ files=(
     .gitignore
     .hushlogin
     .npmrc
+    .rgrc
     .vimrc
     .zshrc
 )
