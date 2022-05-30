@@ -17,7 +17,6 @@
     lo = log --oneline --graph
     st = status
     sw = switch
-    re = restore
 
 [push]
     default = simple
