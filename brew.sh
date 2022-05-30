@@ -5,6 +5,7 @@ brew install curl
 brew install fd
 brew install ffmpeg
 brew install figlet
+brew install fx
 brew install fzf
 brew install git
 brew install htop
