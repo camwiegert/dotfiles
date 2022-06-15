@@ -18,6 +18,10 @@
     st = status
     sw = switch
 
+[log]
+    abbrevCommit = true
+    date = relative
+
 [push]
     default = simple
 
