@@ -14,7 +14,7 @@
     ci = commit -v
     co = checkout
     df = diff
-    lo = log --oneline --graph
+    lo = log
     st = status
     sw = switch
 
