@@ -11,12 +11,6 @@ export N_PREFIX=$HOME/.node
 export RIPGREP_CONFIG_PATH=$HOME/.rgrc
 export GOPATH=$HOME/.go
 
-path=(
-    $HOME/.bin
-    $N_PREFIX/bin
-    $path
-)
-
 sources=(
     $HOME/.aliases
     $HOME/.functions
@@ -30,3 +24,9 @@ for file in $sources; do
 done
 
 unset sources file
+
+path=(
+    $HOME/.bin
+    $N_PREFIX/bin
+    $path
+)
