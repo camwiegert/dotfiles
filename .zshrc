@@ -29,5 +29,6 @@ unset sources file
 path=(
     $HOME/.bin
     $N_PREFIX/bin
+    $GOPATH/bin
     $path
 )
