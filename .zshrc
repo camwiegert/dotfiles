@@ -1,4 +1,5 @@
 bindkey -v
+bindkey "^P" up-line-or-search
 setopt auto_cd
 autoload -Uz compinit promptinit
 compinit -u
