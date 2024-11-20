@@ -1,4 +1,2 @@
 --smart-case
 --glob=!package-lock.json
---max-columns=100
---max-columns-preview
