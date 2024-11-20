@@ -1,42 +1,42 @@
 [user]
-    email = cam@camwiegert.com
-    name = Cam Wiegert
+	email = cam@camwiegert.com
+	name = Cam Wiegert
 
 [core]
-    editor = vim
-    excludesfile = $HOME/.gitignore
+	editor = vim
+	excludesfile = $HOME/.gitignore
 
 [color]
-    ui = auto
+	ui = auto
 
 [alias]
-    br = branch
-    ci = commit -v
-    co = checkout
-    df = diff
-    lo = log
-    st = status
-    sw = switch
+	br = branch
+	ci = commit -v
+	co = checkout
+	df = diff
+	lo = log
+	st = status
+	sw = switch
 
 [log]
-    abbrevCommit = true
-    date = relative
+	abbrevCommit = true
+	date = relative
 
 [push]
-    default = simple
+	default = simple
 
 [pull]
-    ff = only
+	ff = only
 
 [advice]
-    statusHints = false
+	statusHints = false
 
 [init]
-    defaultBranch = main
+	defaultBranch = main
 
 [checkout]
-    defaultRemote = origin
+	defaultRemote = origin
 
 [rerere]
-    enabled = true
+	enabled = true
 

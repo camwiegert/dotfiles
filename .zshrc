@@ -13,22 +13,22 @@ export RIPGREP_CONFIG_PATH=$HOME/.rgrc
 export GOPATH=$HOME/.go
 
 sources=(
-    $HOME/.aliases
-    $HOME/.functions
-    $HOME/.localrc
+	$HOME/.aliases
+	$HOME/.functions
+	$HOME/.localrc
 )
 
 for file in $sources; do
-    if [ -f $file ]
-        then source $file
-    fi
+	if [ -f $file ]
+		then source $file
+	fi
 done
 
 unset sources file
 
 path=(
-    $HOME/.bin
-    $N_PREFIX/bin
-    $GOPATH/bin
-    $path
+	$HOME/.bin
+	$N_PREFIX/bin
+	$GOPATH/bin
+	$path
 )
