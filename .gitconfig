@@ -36,3 +36,7 @@
 
 [checkout]
     defaultRemote = origin
+
+[rerere]
+    enabled = true
+
