@@ -1,7 +1,0 @@
-function path() {
-	echo -e ${PATH//:/\\n}
-}
-
-function github() {
-	open "https://github.com/$(git remote get-url origin | cut -d ':' -f 2 | cut -d '.' -f 1)"
-}

@@ -3,3 +3,4 @@ node_modules/
 ._*
 *.log
 *.sw?
+fish_variables

@@ -1,8 +1,0 @@
-alias cat="bat"
-alias cp="cp -i"
-alias grep="grep -i --color=auto"
-alias ls="ls -AGF1"
-alias mkdir="mkdir -p"
-alias mv="mv -i"
-alias top="htop"
-alias tree="tree -aF -I .git -I node_modules -I .DS_Store"
