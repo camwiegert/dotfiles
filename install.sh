@@ -17,7 +17,7 @@ if ! sudo -v; then
 fi
 
 # Install dotfiles
-stow .
+stow --verbose=2 .
 
 # Add fish to available shells
 if ! grep -q fish /etc/shells; then
