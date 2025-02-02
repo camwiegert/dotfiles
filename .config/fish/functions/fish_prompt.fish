@@ -4,6 +4,8 @@ set __fish_git_prompt_showdirtystate true
 set __fish_git_prompt_showcolorhints true
 
 function fish_prompt
+	set last_status $status
+
 	set_color cyan
 	printf "%s" (prompt_pwd --full-length-dirs=2)
 
@@ -15,8 +17,13 @@ function fish_prompt
 		printf "%s " (long_running)
 	end
 
+	if test $last_status -ne 0
+		set_color red
+		printf "✘ "
+	end
+
 	if test $fish_bind_mode != insert
-		set_color magenta
+		set_color green
 		printf "< "
 	end
 
