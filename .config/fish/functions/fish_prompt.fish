@@ -10,21 +10,21 @@ function fish_prompt
 	printf "%s" (prompt_pwd --full-length-dirs=2)
 
 	set_color normal
-	printf "%s " (fish_git_prompt)
+	printf "%s" (fish_git_prompt)
 
 	if test $CMD_DURATION -gt 1000
 		set_color yellow
-		printf "%s " (long_running)
+		printf " %s" (long_running)
 	end
 
 	if test $last_status -ne 0
 		set_color red
-		printf "✘ "
+		printf " ✖"
 	end
 
 	if test $fish_bind_mode != insert
 		set_color green
-		printf "< "
+		printf " ←"
 	end
 
 	set_color normal
