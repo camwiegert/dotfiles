@@ -12,9 +12,23 @@ function fish_prompt
 
 	if test $CMD_DURATION -gt 1000
 		set_color yellow
-		printf "%s" (long_running)
+		printf "%s " (long_running)
+	end
+
+	if test $fish_bind_mode != insert
+		set_color magenta
+		printf "< "
 	end
 
 	set_color normal
 	printf "\n%s " 🐠
+end
+
+function long_running
+	set -l sec (math floor $CMD_DURATION / 1000)
+	if test $sec -gt 60
+		printf "%sm%ss" (math floor $sec / 60) (math floor $sec % 60)
+	else if test $sec -gt 1
+		printf "%ss" $sec
+	end
 end
