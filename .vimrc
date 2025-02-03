@@ -8,5 +8,5 @@ set laststatus=2
 set scrolloff=8
 set backspace=indent,eol,start
 set rtp+=/opt/homebrew/opt/fzf
-nnoremap <space><space> :FZF<enter>
-nnoremap <space>- <C-^>
+nnoremap <C-p> :FZF<enter>
+nnoremap <C-_> <C-^>
