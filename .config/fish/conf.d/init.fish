@@ -16,7 +16,8 @@ set -gx RIPGREP_CONFIG_PATH $HOME/.rgrc
 
 # fzf
 set -gx FZF_DEFAULT_COMMAND "fd --type file --hidden --exclude .git"
-set -gx FZF_DEFAULT_OPTS "--layout=reverse"
+set -gx FZF_DEFAULT_OPTS "--layout=reverse --style=minimal --preview='bat --color=always {}'"
+bind --mode insert \cp "fzf --bind 'enter:become(vim {})'"
 
 # prefer `bat`
 alias cat "bat"
