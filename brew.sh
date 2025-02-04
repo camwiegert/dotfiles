@@ -11,7 +11,7 @@ brew install httpie
 brew install httpstat
 brew install jq
 brew install lsd
-brew install n
+brew install mise
 brew install neofetch
 brew install nmap
 brew install pandoc
