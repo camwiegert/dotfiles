@@ -41,6 +41,11 @@ end
 function fish_mode_prompt
 end
 
+# handle ctrl+p bind
+function ctrl_p
+	fzf --bind 'enter:become($EDITOR {})'
+end
+
 # locals
 if test -e $HOME/.local.fish
 	source $HOME/.local.fish
