@@ -15,6 +15,7 @@ brew install mise
 brew install neofetch
 brew install nmap
 brew install pandoc
+brew install pngquant
 brew install ripgrep
 brew install stow
 brew install vim
