@@ -1,6 +1,6 @@
 fish_vi_key_bindings
 
-set -gx EDITOR vim
+set -gx EDITOR nvim
 bind --mode insert \cp "ctrl_p"
 
 # go

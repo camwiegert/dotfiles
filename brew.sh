@@ -13,6 +13,7 @@ brew install jq
 brew install lsd
 brew install mise
 brew install neofetch
+brew install neovim
 brew install nmap
 brew install pandoc
 brew install pngquant
