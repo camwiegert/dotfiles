@@ -21,3 +21,8 @@ brew install ripgrep
 brew install stow
 brew install vim
 brew install woff2
+
+brew install --cask 1password
+brew install --cask google-chrome
+brew install --cask raycast
+brew install --cask visual-studio-code
