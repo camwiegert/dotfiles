@@ -17,7 +17,7 @@ function fish_prompt
 		printf " %s" (ms_to_readable $CMD_DURATION)
 	end
 
-	if test $last_status -ne 0
+	if test $last_status = 1
 		set_color red
 		printf " ✘"
 	end
