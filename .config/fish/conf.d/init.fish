@@ -10,6 +10,9 @@ fish_add_path $GOPATH/bin
 # homebrew
 fish_add_path /opt/homebrew/bin /opt/homebrew/sbin
 
+# xdg
+fish_add_path $HOME/.local/bin
+
 # ripgrep
 set -gx RIPGREP_CONFIG_PATH $HOME/.rgrc
 
