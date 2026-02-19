@@ -7,6 +7,10 @@ bind --mode insert \cp "ctrl_p"
 set -gx GOPATH $HOME/.go
 fish_add_path $GOPATH/bin
 
+# node
+set -gx npm_config_prefix $HOME/.local/share/node
+fish_add_path $npm_config_prefix/bin
+
 # homebrew
 fish_add_path /opt/homebrew/bin /opt/homebrew/sbin
 
