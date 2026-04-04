@@ -5,3 +5,4 @@ node_modules/
 *.sw?
 fish_variables
 .config/
+.vscode/
