@@ -32,7 +32,7 @@ alias cp "cp -i"
 alias mv "mv -i"
 
 # prefer `lsd`
-alias ls "lsd -AF --icon=never"
+alias ls "lsd -AF1 --icon=never"
 
 # create intermediate dirs
 alias mkdir "mkdir -p"
