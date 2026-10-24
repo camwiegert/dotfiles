@@ -1,4 +1,3 @@
-colorscheme vim
 set noswapfile
 set nowrap
 set scrolloff=8
