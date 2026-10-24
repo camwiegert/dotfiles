@@ -3,7 +3,7 @@
 	name = Cam Wiegert
 
 [core]
-	editor = vim
+	editor = $EDITOR
 	excludesfile = ~/.gitignore
 
 [color]
