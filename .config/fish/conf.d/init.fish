@@ -21,7 +21,7 @@ fish_add_path $HOME/.local/bin
 set -gx RIPGREP_CONFIG_PATH $HOME/.rgrc
 
 # fzf
-set -gx FZF_DEFAULT_COMMAND "fd --type file --hidden --exclude .git"
+set -gx FZF_DEFAULT_COMMAND "_fzf_list_files"
 set -gx FZF_DEFAULT_OPTS "--layout=reverse --style=minimal --preview='bat --color=always {}'"
 
 # prefer `bat`
@@ -46,6 +46,15 @@ end
 
 # disable default vi mode prompt
 function fish_mode_prompt
+end
+
+# use git for fzf in repos, otherwise fd
+function _fzf_list_files
+	if git rev-parse --is-in-worktree &> /dev/null
+		git ls-files --exclude-standard --others --cached
+	else
+		fd --type file --hidden
+	end
 end
 
 # handle ctrl+p bind
